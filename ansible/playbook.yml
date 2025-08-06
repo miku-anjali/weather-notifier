@@ -1,0 +1,9 @@
+- name: Configure Lambda via CLI
+  hosts: localhost
+  tasks:
+    - name: Deploy JAR to AWS Lambda
+      command: >
+        aws lambda update-function-code
+        --function-name weatherNotifier
+        --zip-file fileb://target/weather-notifier.jar
+
