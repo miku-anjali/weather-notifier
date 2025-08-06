@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+# OpenWeatherMap API key - get from https://openweathermap.org/api
+openweather_api_key = "your_openweather_api_key_here"
+
+# Email address for sending notifications - must be verified in AWS SES
+from_email = "your-email@example.com"
