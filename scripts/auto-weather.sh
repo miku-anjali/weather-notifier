@@ -6,7 +6,7 @@ echo "=========================================================="
 
 if [ -z "$1" ]; then
     echo "Usage: ./auto-weather.sh your-email@example.com"
-    echo "Example: ./auto-weather.sh just47721@gmail.com"
+    echo "Example: ./auto-weather.sh your-email@example.com"
     exit 1
 fi
 
